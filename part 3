@@ -1,0 +1,52 @@
+<?php
+// Khai báo biến kiểu số
+$so_nguyen = 10;  // Integer
+$so_thuc = 3.14;  // Float
+
+// Khai báo biến kiểu chuỗi
+$chuoi = "Xin chào, tôi là MQuin!";
+// Xuất dữ liệu ra màn hình
+echo "Số nguyên: $so_nguyen";
+echo "Số thực: $so_thuc";
+echo "Chuỗi: $chuoi";
+?>
+
+// Một số phép toán cơ bản
+<?php
+// Khai báo biến kiểu số
+$a = 10;
+$b = 5;
+
+// Phép cộng
+$tong = $a + $b;
+echo "Tổng của $a và $b là: $tong";
+
+// Phép trừ
+$hieu = $a - $b;
+echo "Hiệu của $a và $b là: $hieu";
+
+// Phép nhân
+$thuong = $a * $b;
+echo "Tích của $a và $b là: $thuong";
+
+// Phép chia
+$chia = $a / $b;
+echo "Thương của $a và $b là: $chia";
+
+// Phép chia lấy phần dư
+$phan_du = $a % $b;
+echo "Phần dư của $a chia cho $b là: $phan_du";
+
+// Phép tăng giá trị
+$a++;
+echo "Giá trị của a sau khi tăng là: $a";
+
+// Phép giảm giá trị
+$b--;
+echo "Giá trị của b sau khi giảm là: $b";
+
+// Phép lũy thừa
+$luu_thua = $a ** 2;
+echo "$a lũy thừa 2 là: $luu_thua";
+?>
+
