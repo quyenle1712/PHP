@@ -1,0 +1,13 @@
+// tinh chu vi hcn
+<?php
+$a = 5;
+$b = 8;
+function chu_vi_hinh_chu_nhat($a, $b)
+{
+  $chu_vi = 2 * ( $a + $b );
+  return $chu_vi;
+}
+ $chu_vi = chu_vi_hinh_chu_nhat($a, $b);
+ echo " Chu vi HCN la: " .$chu_vi;
+?>
+// ham giai phuong trinh bac nhat
