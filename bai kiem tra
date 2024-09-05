@@ -1,0 +1,44 @@
+
+// cau 8
+function giaiPhuongTrinhBacHai($a, $b, $c) {
+    if ($a == 0) {
+        return "Hệ số a không thể bằng 0.";
+    }
+
+    $delta = $b * $b - 4 * $a * $c;
+vc
+    if ($delta > 0) {
+        $x1 = (-$b + sqrt($delta)) / (2 * $a);
+        $x2 = (-$b - sqrt($delta)) / (2 * $a);
+        return "Phương trình có hai nghiệm phân biệt: x1 = $x1 và x2 = $x2";
+    } elseif ($delta == 0) {
+        $x = -$b / (2 * $a);
+        return "Phương trình có nghiệm kép: x = $x";
+    } else {
+        return "Phương trình vo nghiem";
+    }
+}
+// cau 9
+function printEmptyRectangle($rows, $cols) {
+    for ($i = 0; $i < $rows; $i++) {
+        if ($i == 0 || $i == $rows - 1) {
+            echo str_repeat('*', $cols) . PHP_EOL;
+        } else {
+            echo '*' . str_repeat(' ', $cols - 2) . '*' . PHP_EOL;
+        }
+    }
+}
+printEmptyRectangle(5, 7);
+?>
+// cau 10
+function calculateAverage($array) {
+    if (empty($array)) {
+        return 0;
+    }
+    $sum = array_sum($array);
+    $count = count($array);
+    $average = $sum / $count;
+    return $average;
+}
+
+
